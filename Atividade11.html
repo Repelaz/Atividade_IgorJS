@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Métodos</title>
+</head>
+<body>
+    
+    <script>
+
+        const carro = {
+            ano: 2001,
+            marca: "Chevrolet",
+            modelo: "Celta",
+            cor: "Azul",
+            velocidade: 0,
+            acelar() {
+                alert("Vrummmm")
+                this.velocidade += 10
+            }
+        }
+
+        const nootbook = {
+            marca: "Dell", 
+            processador: "intel CORE i5",
+            ano: 2020,
+            valor: 8000,
+            cor: "Preto",
+            estado: '',
+            proprietario: {
+                nome: "Senai",
+                localidade: "Birigui"
+            },
+            digitar(texto) {
+                alert(texto)
+            },
+            desligar() {
+                alert("Desligando")
+                this.estado = "desligado"
+            },
+            ligar() {
+                alert("Ligando")
+                this.estado = "ligado"
+            }
+        }
+
+    </script>
+
+</body>
+</html>

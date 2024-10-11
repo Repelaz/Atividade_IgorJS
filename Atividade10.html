@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Métodos</title>
+</head>
+<body>
+    
+    <script>
+
+        const pessoas = [
+            {
+                nome: 'Kleber', 
+                idade: 19
+            },
+            {
+                nome: 'João', 
+                idade: 27
+            },
+            {
+                nome: 'Ferdinando', 
+                idade: 34
+            },
+            {
+                nome: "Lais",
+                idade: 89
+            }
+        ]
+
+        var maior = 0
+
+        for (i in pessoas) {
+            if (pessoas[i].idade > maior) {
+                maior = pessoas[i].idade
+            }
+        }
+
+        console.log(maior)        
+
+    </script>
+
+</body>
+</html>
